@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+  <html lang="en-US">
+  <meta name="Axel Borgmo" content="Assignment from course: Advanced Computer Music Composition Course - Dr. Tae Hong Park">
+  <title>ASSIGNMENT X</title>
+  <script src="scripts/main.js" defer></script>   
+  <link href="styles/style.css" rel="stylesheet">
+  <link rel="icon" href="Iconsmind-Outline-Cat.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <div>
+    <body style="background-color:darkslategray;">
+    <h1> BAND BOX </h1>
+    <button class="btn"  id="startbutton">Press to load tracks</button>
+    <section id="tracks">
+      <p1>
+        <div data-loading="true" class="center">
+          <a href="leadguitar.mp3" class="track">Lead Guitar</a>
+          <p class="loading-text">Loading...</p>
+          <button data-playing="false" aria-decribedby="guitar-play-label" class="playbutton + btn">
+            <span id="guitar-play-label">Play</span>
+          </button>
+        </div>
+        <div data-loading="true" class="center">
+          <a href="bassguitar.mp3" class="track">Bass Guitar</a>
+          <p class="loading-text">Loading...</p>
+          <button data-playing="false" aria-describedby="bass-play-label" class="playbutton + btn">
+            <span id="bass-play-label">Play</span>
+          </button>
+        </div>
+      </p1>
+
+      <p2>
+        <div data-loading="true" class="center">
+          <a href="drums.mp3" class="track">Drums</a>
+          <p class="loading-text">Loading...</p>
+          <button data-playing="false" aria-describedby="drums-play-label" class="playbutton + btn">
+            <span id="drums-play-label">Play</span>
+          </button>
+        </div>
+        <div data-loading="true" class="center">
+          <a href="clav.mp3" class="track">Clavi</a>
+          <p class="loading-text">Loading...</p>
+          <button data-playing="false" aria-describedby="clavi-play-label" class="playbutton + btn">
+            <span id="clavi-play-label">Play</span>
+          </button>
+
+        </div>
+
+      </p2>
+
+    </section>
+
+  </div>
+
+
+</body>
+
+</html>
